@@ -1,5 +1,5 @@
 // Define a model for a User
-class User {
+class AppUser {
     private id: number;
     private name: string;
     private email: string;
@@ -37,11 +37,11 @@ class User {
 }
 
 // Example usage
-const user = new User(1, 'John Doe', 'john.doe@example.com');
-console.log(user.getId()); // 1
-console.log(user.getName()); // John Doe
-console.log(user.getEmail()); // john.doe@example.com
-user.setName('Jane Doe');
-user.setEmail('jane.doe@example.com');
-console.log(user.getName()); // Jane Doe
-console.log(user.getEmail()); // jane.doe@example.com
+const appUser = new AppUser(1, 'John Doe', 'john.doe@example.com');
+console.log(appUser.getId()); // 1
+console.log(appUser.getName()); // John Doe
+console.log(appUser.getEmail()); // john.doe@example.com
+appUser.setName('Jane Doe');
+appUser.setEmail('jane.doe@example.com');
+console.log(appUser.getName()); // Jane Doe
+console.log(appUser.getEmail()); // jane.doe@example.com
