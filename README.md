@@ -326,6 +326,8 @@ heads
      git checkout <branch-name>
      # or
      git switch <branch-name>
+
+     git checkout -b <branch-name>
      ```
       
        The git branch command works by manipulating the references in the .git folder. Here's how it works in detail:
