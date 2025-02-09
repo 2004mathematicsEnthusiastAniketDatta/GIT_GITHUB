@@ -531,7 +531,7 @@ Revert Command: The basic command for reverting a commit is:
 This creates a new commit that reverses the changes introduced by the specified commit.
 
 Creating a Revert Commit:
-
+git revert <commit-hash>
 Identify Changes: Git identifies the changes made by the commit to be reverted.
 Apply Reverse Changes: Git applies the reverse of these changes to the working directory and stages them.
 Commit Reversion: Git creates a new commit with the reversed changes. This commit has a new hash and includes a message indicating that it reverts a specific commit.
@@ -540,4 +540,5 @@ Impact on .git Folder:
 Objects: A new commit object is created in the objects directory. This object contains the metadata and the reversed changes.
 References: The branch reference in heads is updated to point to the new revert commit. The HEAD reference in HEAD is also updated to point to this new commit.
 Conflict Resolution: If there are conflicts during the revert, Git will pause and allow you to resolve them. After resolving conflicts, continue the revert with:
+git revert --continue
 ```
