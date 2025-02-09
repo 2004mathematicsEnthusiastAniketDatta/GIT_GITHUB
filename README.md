@@ -167,6 +167,7 @@ Here's an improved version of your README.md file with a detailed explanation of
    - **Commit Hash**: Generates a SHA-1 hash from the commit object content.
    - **References Update**: Updates the branch reference in `.git/refs/heads` and the HEAD reference in `.git/HEAD`.
 
+      git commit -am "message"
 
 ## git push 
 
