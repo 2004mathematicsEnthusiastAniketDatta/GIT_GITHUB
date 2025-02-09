@@ -348,6 +348,14 @@ Here's an improved version of your README.md file with a detailed explanation of
 Feel free to add more details or steps as needed. Feel free to add more details or steps as needed.
 
 
+## Always work on branches of main branch and not on main branch:
+   
+   In Industries and open source projects , the main branch is locked and is not accessible to contributors, as the main branch is deployed on the server . The code is written on some other branch and multiple branches are created from the branch of main branch , once the work is done, there is reviewing of the entire branch and the codebases are reviewed and if everything is industrially acceptable then after all checks the code is merged to the main branch.
+
+   Once a Pull Request is Merged , Delete the Pull Request.
+
+   
+
 
     
    
