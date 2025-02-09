@@ -354,7 +354,9 @@ Feel free to add more details or steps as needed. Feel free to add more details 
 
    Once a Pull Request is Merged , Delete the Pull Request.
 
-   
+## Squashing
+
+    
 
 
     
